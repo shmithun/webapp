@@ -13,8 +13,7 @@ FROM ubuntu
 RUN apt-get -y update && apt-get -y install nginx
 
 COPY . /var/www/html/
-# Copy the Nginx config
-COPY default /etc/nginx/sites-available/default
+
 
 # Expose the port for access
 EXPOSE 80/tcp
