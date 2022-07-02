@@ -6,7 +6,6 @@
 # # CMD ["service","nginx","start"]
 # CMD ["nginx","-g","daemon off;"]
 
-
 FROM ubuntu
 
 # Install Nginx
